@@ -7,7 +7,7 @@ package com.mahadihasan.chapter10;
 public class SalariedEmployee extends Employee{
 
     private double weeklySalary;
-    private double baseSalary;
+    //private double baseSalary;
     
     public SalariedEmployee(String first, String last, String ssn, double salary) {
         super(first, last, ssn);
@@ -16,7 +16,7 @@ public class SalariedEmployee extends Employee{
     
     public void setWeeklySalary (double salary) {
         if(salary >= 0.0) {
-            baseSalary = salary;
+            weeklySalary = salary;
         }
         else
             throw new IllegalArgumentException(
