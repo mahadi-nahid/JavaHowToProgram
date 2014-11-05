@@ -1,6 +1,8 @@
 
 package javahowtoprogramm;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Md Mahadi Hasan Nahid
@@ -12,6 +14,7 @@ public class JavaHowToProgramm {
      */
     public static void main(String[] args) {
         System.out.println("Hello Java.");
+        JOptionPane.showMessageDialog(null, "Hello Afjal.");
     }
     
 }
