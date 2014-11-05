@@ -41,6 +41,7 @@ public class Fractal extends JFrame {
         changeColorJButton = new JButton("Color");
         controlJPanel.add(changeColorJButton);
         
+        
         changeColorJButton.addActionListener(
                 new ActionListener() {
 
@@ -113,6 +114,8 @@ public class Fractal extends JFrame {
         
         setSize(WIDTH, HEIGHT);
         setVisible(true);
+        setResizable(false);
+        setLocationRelativeTo(null);
         
     }
     
