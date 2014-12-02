@@ -1,6 +1,7 @@
 
 package javahowtoprogramm;
 
+import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 /**
@@ -15,6 +16,9 @@ public class JavaHowToProgramm {
     public static void main(String[] args) {
         System.out.println("Hello Java.");
         JOptionPane.showMessageDialog(null, "Hello Afjal.");
+        ArrayList<String> lists = new ArrayList<>();
+        
+
     }
     
 }
