@@ -47,9 +47,12 @@ public class CreateTextFile {
                 record.setBalance(input.nextDouble());
 
                 if (record.getAccount() > 0) {
+                    System.out.println("Here --------------");
                     output.format("%d %s %s %.2f\n", record.getAccount(),
                             record.getFirstName(), record.getLastName(),
                             record.getBalance());
+                    
+                    System.out.println("Pass Trough --------------");
                 } else {
                     
                     System.out.println("Account number must be greater than 0.");
